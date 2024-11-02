@@ -1,0 +1,91 @@
+body{
+  background-color: #F4F5F6;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  border-radius: 24px;
+  background-color: white;
+  padding: 32px;
+  box-sizing: border-box;
+  margin-top: 48px;
+}
+
+.main__title{
+  font-size: 24px;
+  margin: 0;
+}
+
+.input-label{
+  font-size: 14px;
+  font-weight: 600;
+  color: #22252BB2;
+  margin: 16px 0 8px 0;
+}
+
+.input{
+  width: 536px;
+  height: 52px;
+  border: 1px solid #22252B29;
+  border-radius: 12px;
+  padding-left: 16px;
+}
+
+.input-mini{
+  display: flex;
+  gap: 16px;
+}
+
+.expiry-date-input{
+  width: 240px; 
+}
+
+.cvv-input{
+  width: 260px; 
+}
+
+.error{
+  color: #C24100;
+}
+
+.input.error{
+  border: 1px solid #C24100;
+}
+
+.error-text{
+  font-size: 14px;
+  color: #C24100;
+  margin: 8px 0 0 0;
+}
+
+.button{
+  cursor: pointer;
+  width: 131px;
+  height: 52px;
+  background-color: #0663EF;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button-submit{
+  background-color: #0663EF;
+  color: white;
+}
+
+.button-back{
+  background-color: #0663EF14;
+  color: #0663EF;
+}
+
+footer{
+  padding-top: 32px;
+  display: flex;
+  gap: 16px;
+}
